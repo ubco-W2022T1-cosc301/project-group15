@@ -27,7 +27,7 @@ The purpose of the dataset is to find out the popularity of different games acro
 **Please remember to update this section**
 
 - Person 1: one sentence about you!
-- Person 2: one sentence about you!
+- Person 2: My name is Adrian
 - Person 3: one sentence about you!
 
 ## Images
