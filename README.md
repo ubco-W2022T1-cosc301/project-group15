@@ -26,7 +26,7 @@ The purpose of the dataset is to find out the popularity of different games acro
 
 **Please remember to update this section**
 
-- Person 1: one sentence about you!
+- Person 1: My name is Edwin
 - Person 2: My name is Adrian
 - Person 3: My name is Sitt Hmue Paing
 
@@ -41,6 +41,8 @@ The purpose of the dataset is to find out the popularity of different games acro
 ## References
 
 **Please remember to update this section**
+
+[Data Source](https://www.kaggle.com/datasets/deepcontractor/top-video-games-19952021-metacritic?resource=download)
 
 {Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
 
