@@ -27,7 +27,7 @@ The purpose of the dataset is to find out the popularity of different games acro
 **Please remember to update this section**
 
 - Person 1: My name is Edwin
-- Person 2: My name is Adrian
+- Person 2: My name is Adrian Fong
 - Person 3: My name is Sitt Hmue Paing
 
 ## Images
