@@ -1,15 +1,17 @@
 # Edwin
 
 import pandas as pd
-import numpy as np
+import re
 
 def dataloadnclean(path):
     dataset = pd.read_csv(path)
     dataset = (
         dataset
-        .sort_values("user_review", ascending = False)
-        .drop(index = dataset[dataset["user_review"] == "tbd"].index)
-        .drop_duplicates(subset = ["name"])
-        #.drop(columns = 'platform')
+        [dataset['types'] != 'bundle']
+        .drop(columns = ['url', 'game_description', 'minimum_requirements', 'recommended_requirements', 'desc_snippet', 'mature_content', 'types'])
+        [dataset['all_reviews'].notna() & dataset['all_reviews'].str.contains('%')]
+        .assign(all_reviews = lambda x: x['all_reviews'].apply(lambda y: re.findall("(\d{1,3}%)", y)[0].replace('%', '').to_int()))
+        [dataset['recent_reviews'].notna() & dataset['recent_reviews'].str.contains('%')]
+        .assign(recent_reviews = lambda x: x['recent_reviews'].apply(lambda y: re.findall("(\d{1,3}%)", y)[0].replace('%', '').to_int()))
     )
     return dataset
