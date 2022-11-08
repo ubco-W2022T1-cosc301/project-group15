@@ -1,5 +1,6 @@
 # Adrian
 import pandas as pd
+import numpy as np
 
 def dataFilter(path2): 
     game = (
