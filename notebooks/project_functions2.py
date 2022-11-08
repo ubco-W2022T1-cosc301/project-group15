@@ -71,3 +71,51 @@ def split_value1(list, column_name):
                 pass
         count+= 1
     return list
+
+def split_value(list, column_name, name, game_name):
+    count = 0
+    index = -1
+    for i in list[name]:
+        if (i == game_name):
+            index = count
+        count+= 1
+    
+    if(column_name == 'languages'):
+        return re.split('[\b\W\b]+',list[column_name][index])
+    elif(index != -1):
+        return re.split('[;,.]\s*',list[column_name][index])
+    else:
+        return []
+    
+def unique_game_tags(list, column_name, name):
+    count = 0
+    index = -1
+    unique = []
+    for x in list[name]:
+        temp = []
+        for i in list[name]:
+            if (i == x):
+                index = count
+                break
+            count+= 1
+        try:    
+            if(column_name == 'languages'):
+                temp = re.split('[\b\W\b]+',list[column_name][index])
+            elif(index != -1):
+                temp = re.split('[;,.]\s*',list[column_name][index])
+            else:
+                temp = []
+                
+            for y in temp:
+                confirm = 0
+                for z in unique:
+                    if(y == z):
+                        confirm+=1
+                        break
+                
+                if(confirm == 0):
+                    unique.append(y)
+        except:
+            pass
+                
+    return unique            
