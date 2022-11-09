@@ -2,6 +2,8 @@
 import pandas as pd
 import numpy as np
 import re
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def dataFilter(path): 
     game = pd.read_csv(path)
@@ -118,4 +120,44 @@ def unique_game_tags(list, column_name, name):
         except:
             pass
                 
-    return unique            
+    return unique     
+
+def unique_game_tags2(list, column_name, name):
+    count = 0
+    index = -1
+    unique = []
+    dict = {}
+    for x in list[name]:
+        temp = []
+        for i in list[name]:
+            if (i == x):
+                index = count
+                break
+            count+= 1
+        try:    
+            if(column_name == 'Languages'):
+                temp = re.split('[\b\W\b]+',list[column_name][index])
+            elif(index != -1):
+                temp = re.split('[;,.]\s*',list[column_name][index])
+            else:
+                temp = []
+                
+            for y in temp:
+                confirm = 0
+                for z in unique:
+                    if(y == z):
+                        confirm+=1
+                        dict[y] += 1
+                        break
+                
+                if(confirm == 0):
+                    unique.append(y)
+                    dict[y] = 1
+        except:
+            pass
+                
+    return dict      
+
+def addlabel2(x,y):
+    for i in range(len(x)):
+        plt.text(y[i],x[i],y[i]) 
