@@ -15,6 +15,7 @@ The dataset we are using has a licence of CC0 and covers most of  the games that
 <img src = "images\Online Multiplayer.png" width=500>
 <img src = "images\Genre.png" width=500>
 <img src = "images\language.png" width=500>
+<img src = "images\rating.png" width=500>
 
 ## References
 [Data Source](https://www.kaggle.com/datasets/trolukovich/steam-games-complete-dataset)
