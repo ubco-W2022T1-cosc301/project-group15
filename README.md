@@ -17,7 +17,6 @@ The data is also fairly representative of the gaming market since Steam is the l
 <img src = "images\Online Multiplayer.png" width=500>
 <img src = "images\Genre.png" width=500>
 <img src = "images\language.png" width=500>
-<img src = "images\rating.png" width=500>
 
 ## References
 [Data Source](https://www.kaggle.com/datasets/trolukovich/steam-games-complete-dataset)
