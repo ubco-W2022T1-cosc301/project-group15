@@ -1,0 +1,248 @@
+,Types of Genre,Count
+0,Indie,119
+1,Action,112
+2,Adventure,91
+3,Singleplayer,76
+4,Strategy,72
+5,Casual,63
+6,Simulation,56
+7,Multiplayer,49
+8,RPG,43
+9,Great Soundtrack,40
+10,Early Access,37
+11,Co-op,33
+12,Atmospheric,32
+13,Open World,30
+14,2D,28
+15,Story Rich,25
+16,Sandbox,24
+17,Difficult,23
+18,Funny,21
+19,Masterpiece,21
+20,Shooter,20
+21,Sci-fi,20
+22,Third Person,18
+23,Pixel Graphics,18
+24,FPS,17
+25,Puzzle,17
+26,VR,17
+27,First-Person,16
+28,Classic,16
+29,Platformer,16
+30,Horror,15
+31,Survival,15
+32,Anime,15
+33,Family Friendly,15
+34,Fantasy,15
+35,Space,15
+36,Nudity,14
+37,Massively Multiplayer,13
+38,Point & Click,13
+39,Online Co-Op,12
+40,Violent,12
+41,Sports,12
+42,Gore,11
+43,Tactical,11
+44,Comedy,11
+45,Free to Play,11
+46,Building,11
+47,Replay Value,11
+48,Retro,11
+49,Stealth,10
+50,Turn-Based,10
+51,Female Protagonist,10
+52,Realistic,10
+53,Local Co-Op,9
+54,Visual Novel,9
+55,Racing,9
+56,Arcade,9
+57,Hack and Slash,8
+58,Turn-Based Strategy,8
+59,Mystery,8
+60,Psychological Horror,8
+61,Exploration,8
+62,Dark,8
+63,Side Scroller,8
+64,PvP,7
+65,Survival Horror,7
+66,Controller,7
+67,Rogue-like,7
+68,Base Building,7
+69,RTS,7
+70,Cute,7
+71,Crafting,7
+72,Colorful,7
+73,JRPG,7
+74,Management,7
+75,Zombies,6
+76,Memes,6
+77,Third-Person Shooter,6
+78,Turn-Based Combat,6
+79,Detective,6
+80,Sexual Content,6
+81,Moddable,6
+82,Card Game,6
+83,Physics,6
+84,Education,6
+85,Mature,6
+86,Isometric,6
+87,Futuristic,6
+88,Shoot 'Em Up,6
+89,Post-apocalyptic,5
+90,Rogue-lite,5
+91,Crime,5
+92,Cult Classic,5
+93,Character Customization,5
+94,MMORPG,5
+95,War,5
+96,Tower Defense,5
+97,Economy,5
+98,Grand Strategy,5
+99,Historical,5
+100,Fighting,5
+101,Puzzle-Platformer,5
+102,Blood,4
+103,Military,4
+104,Hex Grid,4
+105,Destruction,4
+106,Aliens,4
+107,4X,4
+108,Medieval,4
+109,Cartoony,4
+110,Action RPG,4
+111,Twin Stick Shooter,4
+112,Mechs,4
+113,Comic Book,4
+114,Local Multiplayer,4
+115,Choices Matter,4
+116,Noir,4
+117,Hidden Object,4
+118,Short,4
+119,Time Management,4
+120,Walking Simulator,4
+121,Fast-Paced,3
+122,Competitive,3
+123,Team-Based,3
+124,Board Game,3
+125,Magic,3
+126,Resource Management,3
+127,World War II,3
+128,Illuminati,3
+129,Dating Sim,3
+130,Top-Down Shooter,3
+131,Top-Down,3
+132,Beat 'em up,3
+133,Action-Adventure,3
+134,Clicker,3
+135,Touch-Friendly,3
+136,City Builder,3
+137,Minimalist,3
+138,Relaxing,3
+139,1980s,3
+140,Demons,2
+141,Remake,2
+142,Real-Time with Pause,2
+143,Dark Humor,2
+144,Philisophical,2
+145,Perma Death,2
+146,Bullet Hell,2
+147,Driving,2
+148,Addictive,2
+149,Dystopian,2
+150,Swordplay,2
+151,Assassin,2
+152,Parkour,2
+153,Dark Fantasy,2
+154,Linear,2
+155,4 Player Local,2
+156,Batman,2
+157,Superhero,2
+158,Robots,2
+159,Mod,2
+160,Flight,2
+161,Level Editor,2
+162,Split Screen,2
+163,Pirates,2
+164,Cyberpunk,2
+165,Heist,2
+166,Software,2
+167,Procedural Generation,2
+168,Turn-Based Tactics,2
+169,1990's,2
+170,Wargame,2
+171,Narration,2
+172,Text-Based,2
+173,Battle Royale,1
+174,Character Action Game,1
+175,Spectacle fighter,1
+176,Stylized,1
+177,Party-Based RPG,1
+178,Strategy RPG,1
+179,Conversation,1
+180,Dynamic Narration,1
+181,Dungeons & Dragons,1
+182,CRPG,1
+183,God Game,1
+184,Science,1
+185,Cinematic,1
+186,Horses,1
+187,Dragons,1
+188,Diplomacy,1
+189,Alternate History,1
+190,Hunting,1
+191,Souls-like,1
+192,Automation,1
+193,Lore-Rich,1
+194,Based On A Novel,1
+195,Romance,1
+196,Cats,1
+197,World War I,1
+198,Trading Card Game,1
+199,Asymmetric VR,1
+200,Metroidvania,1
+201,3D Vision,1
+202,Time Attack,1
+203,e-sports,1
+204,Rhythm,1
+205,Music,1
+206,PvE,1
+207,Kickstarter,1
+208,Vampire,1
+209,Transhumanism,1
+210,Voice Control,1
+211,Gothic,1
+212,Tactical RPG,1
+213,Psychological,1
+214,Agriculture,1
+215,Audio Production,1
+216,Utilities,1
+217,Psychedelic,1
+218,Abstract,1
+219,Dungeon Crawler,1
+220,2D Fighter,1
+221,Trading,1
+222,Politics,1
+223,Football,1
+224,Dog,1
+225,Mini Golf,1
+226,Lovecraftian,1
+227,Loot,1
+228,Hand-drawn,1
+229,Supernatural,1
+230,FMV,1
+231,Games Workshop,1
+232,Warhammer 40K,1
+233,Grid-Based Movement,1
+234,Movie,1
+235,Word Game,1
+236,Logic,1
+237,Real Time Tactics,1
+238,Silent Protagonist,1
+239,Experience,1
+240,Arena Shooter,1
+241,Capitalism,1
+242,Dinosaurs,1
+243,Software Training,1
+244,6DOF,1
+245,Design & Illustration,1
+246,Web Publishing,1
