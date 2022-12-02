@@ -22,5 +22,4 @@ The data is also fairly representative of the gaming market since Steam is the l
 ## References
 [Data Source](https://www.kaggle.com/datasets/trolukovich/steam-games-complete-dataset)
 
-
-
+## [Milestone 4 Video](https://1drv.ms/v/s!AidBCfmtc0EDhuRpgNW4LmqDdgt0qA?e=TA71ud)
