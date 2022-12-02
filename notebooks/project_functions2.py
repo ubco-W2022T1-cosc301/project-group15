@@ -49,6 +49,14 @@ def dataFilter2(path):
     )
     return df
 
+def dataFilter3(path):
+    df = dataFilter2("../data/raw/steam_games.csv")
+    df['Year'] = pd.to_numeric(df['Release Date'].str[-4:], errors='coerce',downcast='signed')
+    dataset = df[df['Year'] <= 2018]
+    return dataset
+
+
+
 def split_value2(list, column_name, index):
     if (re.search(',', list[column_name][index])):
         first_half  = list[column_name][index][:len(list[column_name][index])//2]
@@ -157,6 +165,71 @@ def unique_game_tags2(list, column_name, name):
             pass
                 
     return dict      
+
+def unique_game_tags2_date(list, column_name, name, date):
+    count = 0
+    index = -1
+    unique = []
+    dict = {}
+    for x in list[name]:
+        temp = []
+        for i in list[name]:
+            if (i == x):
+                index = count
+                break
+            count+= 1
+        try:    
+            if(column_name == 'Languages'):
+                temp = re.split('[\b\W\b]+',list[column_name][index])
+            elif(index != -1):
+                temp = re.split('[;,.]\s*',list[column_name][index])
+            else:
+                temp = []
+                
+            for y in temp:
+                confirm = 0
+                for z in unique:
+                    if(y == z and list['Year'][count] == date):
+                        confirm+=1
+                        dict[y] += 1
+                        break
+                
+                if(confirm == 0):
+                    unique.append(y)
+                    dict[y] = 1
+        except:
+            pass
+                
+    return dict 
+
+def unique_date(list):
+    count = 0
+    index = -1
+    unique = []
+    dict = {}
+    for x in list['Game Name']:
+        temp = []
+        for i in list['Game Name']:
+            if (i == x):
+                index = count
+                break
+            count+= 1
+        try:    
+            for y in temp:
+                confirm = 0
+                for z in unique:
+                    if(y == z):
+                        confirm+=1
+                        dict[y] += 1
+                        break
+                        
+                if(confirm == 0):
+                    unique.append(y)
+                    dict[y] = 1
+        except:
+            pass
+    return dict
+
 
 def addlabel2(x,y):
     for i in range(len(x)):
