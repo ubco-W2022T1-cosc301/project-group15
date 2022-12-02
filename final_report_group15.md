@@ -1,9 +1,16 @@
 # Group 15 Final Report
 
-## Introduction
+## Introduction (+!-!+Incomplete+!-!+)
 Our group decided to perform an analysis on video game data because 
 
 The dataset that we used is data from Steam, a popular online game store. The dataset includes information such as pricing, genre, release date, tags (which includes information on what features the game implements and/or type of game that it is), developer, publisher, languages, achievements, and much more. We obtained this data from Kaggle, an online database that hosts datasets. This data is under the CC0 (public domain) Licence and originally contained over 40 thousand steam games. The data was originally collected in the middle of 2019.
+
+## Explorative Data Analysis (+!-!+Incomplete+!-!+)
+Our group's EDA mostly consisted of looking at the data manually and figuring out what we can clean up and wrangle in our data pipeline. This was due to the dataset we chose containing a lot of text that needed to be separated out into numerical and boolean values befoe they can be put into use for the analysis.
+
+For example, we separated out the year from the release date and converted it into a numerical value. We also separated out the tags into individual columns and converted them into boolean values. This was done so that we can use the data for our analysis.
+
+In part 2 of the analysis, we also wrote functions to further separate and wrangle large amounts of data which were all crammed into individual cells in the original dataset. The game tags and language columns were the most difficult to wrangle because they contained a lot of data in the form of text.
 
 ## Analysis - Part 1
 In this part of the data analysis, I attempted to answer some questions on game trends over time. Such as how the game's prices changed, how many games were developed, did more or less games implement online functionalities such as online multiplayer, and did more or less game developers add achievements to their games.
@@ -35,3 +42,9 @@ The last graph that I have plotted is the number of games that implemented achie
 
 ### Analysis - Part 1 conclusion
 From these graphs, we can see how the number of games released matches with the rate of historical technological development, how the rise of internet entertainment has caused developers to make more online games, how prices of games have changed over time while closely following the consumer price index, and how developers have implemented achievements in their games.
+
+## Analysis - Part 2
+
+## Analysis - Part 3
+
+## Conclusion (+!-!+Incomplete+!-!+)
