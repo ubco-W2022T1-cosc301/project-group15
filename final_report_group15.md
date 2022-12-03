@@ -70,9 +70,28 @@ On the first graph, which is the number of games released each year, we can see 
 In this part, I am checking how the recent review have an influence on the overall percent rating of different game as well as which game has the highest recent review for different rating categories such as very positive review game, mixed review game and negative review game.
 
 ### Image 1
+<img src= "images\Final Report Images\Sitt Hmue Paing\Very Positive reviews game.png">
 <img src= "images\Final Report Images\Sitt Hmue Paing\Highest recent review for very positive games.png">
 
 The bar graphs shows the comparison between recent and overall users review percentage on very positive rated game. All the rating in the graph both recent and overall only consist of positive review and as we can see there are some variation in the graph as the overall percentage increase/decrease or no change. The increases in overall percentage clearly tell us that there is a rise in recent positive review which in turn increase the growth of overall positive review. For decrease positive review, there may be reasons like the number of negative reviews exceeded that of the number of positive review from the user hence it will dropped the overall positive percent review. For no change graph, we can say that both the negative rating and the positive rating from the users are equal so there will be no further changes on the overall reviews. It shows that the change in recent positive review influence the change in overall positive reviews. The game get the overall rating of very positive since the positive user from both current and previous number greatly out weight the number of negative rating from different users from previous or current.
+
+The second graph above clearly shows that Counter-Strike game has the highest positive users rating in very positive review categories, followed by Rainbow Six Siege and Team Fortress 2.
+
+### Image 2
+<img src= "images\Final Report Images\Sitt Hmue Paing\Mixed review game.png">
+<img src= "images\Final Report Images\Sitt Hmue Paing\Highest recent review for very positive games.png">
+
+
+One comparison bar graph done previous between the recent and overall percentage review which is focussing on very positive review game is not enough to convince that the same thing apply for the other game that have different rating like mixed and negative reviews. Here is the second graph focussing on mixed reviewed game. The same as the previous comparison bar graph there is a increase/decrease or no change in overall rating. We can say that the change in recent percent review affected the overall percent review for the mixed reviewed game as well. The games are in mixed categories since negative reviews made by different users outnumbered the number of positive reviews from both current and previous user. Another reason for increase in negative review can be because of new updates made on the game. New updates can have pros and cons which also depends on the user's taste. Since there is more recent negative percentage review on the updates of the game that in turn affect the overall percentage review dropped gradually or drastically. 
+
+The second graph above clearly shows that Playerunknown's battlegrounds has the highest positive recent users in mixed review categories, followed by KurtzPel and Battalion 1944.
+
+### Image 3
+<img src= "images\Final Report Images\Sitt Hmue Paing\Negative review game.png">
+<img src= "images\Final Report Images\Sitt Hmue Paing\Highest recent review for negative games.png">
+
+We can see from the above graph that the overall the change in recent percentage review can affect the overall percentage review. The first game has no recent review so the overall percentage rating remain unchanged but for the other games on the graph, we can clearly see that there is the change in overall review due to the change in recent review. The game are in the very negative categories because the users that rated the game as negative greatly out weight the number of  from both current/previous users that rated the game as positive.
+
 
 
 ## Conclusion (+!-!+Incomplete+!-!+)
