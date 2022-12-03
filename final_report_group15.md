@@ -49,22 +49,41 @@ In the 2nd part of data analysis, I will analysis how many games are in differen
 There are a lot incomplete and missing data in the dataset. Therefore, after filtering out missing value from columns and rows in the dataset, some data in the graph will show lesser than expected (around 2500 rows of complete data).
 
 ### Image 1
-On the first graph shows the number of different types of genre from 1990 to 2018. We can see that Indie type is the most used genre tag in steam games, and it is in 107 different games. Along with the second most used genre tag is action type of game
-
-On the first graph, which is the number of games released each year, we can see that the graph follows an exponential curve. This follows the development trend of technology over those years and from this graph, we can see that the cleaned and wrangled dataset appears to be accurate enough for use in this data analysis.
-
-<img src="images\Final Report Images\Adrian\Genre.png">
-
-
-<img src="images\Final Report Images\Adrian\Genre2018.png">
-
-<img src="images\Final Report Images\Adrian\GameTag.png">
-
-<img src="images\Final Report Images\Adrian\GameTag2018.png">
+On the first graph shows the number of different types of available languages in games from 1990 to 2018. There are 33 different languages available in games on steam platform. We can see that highest used language is English in steam games which it is available in 219 different games. Along with the second highest used language is German in steam games which it is available in 90 different games.
 
 <img src="images\Final Report Images\Adrian\Language.png">
 
+### Image 2
+On the second graph shows the number of different types of available languages in games from in year 2018. There are 32 different languages available in games on steam platform in year 2018. We can see that highest used language is Portuguese in steam games in year 2018, and it is available in 5 different games. Along with the second highest used language are Polish and Traditional Chinese which it is available in 4 different steam games in year 2018.
+
 <img src="images\Final Report Images\Adrian\Language2018.png">
+
+### Analysis - Part 2 Language conclusion
+From the result of graphs above, we can see that English is the main language that is used in games. In Year 2018, Portuguese language are available in most games on steam platform.
+
+### Image 3
+On the third graph shows the number of different types of genre from 1990 to 2018. There are 18 different types of genre on steam platform. We can see that Indie type is the most used genre tag in steam games, and it is in 107 different games. Along with the second highest used genre tag is Action type, and it is in 101 different types of games.
+
+<img src="images\Final Report Images\Adrian\Genre.png">
+
+### Image 4
+On the forth graph shows the number of different types of genre from in year 2018. There are 15 different types of genre on steam platform in year 2018. We can see that Indie, RPG, Sports, and Casual type are the highest used genre tags in steam games in year 2018, and it is in 3 different games in each of genre tag. Along with the second highest used genre tags are Racing, Early Access, Simulation and Strategy type, and it is in 2 different types of games in each of genre in year 2018.
+
+<img src="images\Final Report Images\Adrian\Genre2018.png">
+
+### Image 5
+On the fifth graph shows the number of unique types of game tags from 1990 to 2018. The data in the graph is quite a lot is because there are 247 unique game tags collected from the filtered dataset. We can see that Indie type is the highest used genre tag in steam games, and it is in 119 different games. Along with the second highest used game tag Action type, and it is in 112 different types of games.
+
+<img src="images\Final Report Images\Adrian\GameTag.png">
+
+### Image 6
+On the sixth graph shows the number of unique types of game tags from in year 2018. The data in the graph is still quite a lot is because there are 235 unique game tags collected from the filtered dataset in year 2018. We can see that Great Soundtrack type are the most used game tags in steam games in year 2018, and it is in 4 different games. Along with the second most used game tags are Singleplayer, Indie, RPG, Family Friendly, Casual, Replay Value, Sports, Historical, Local Multiplayer, Hidden Object, and it is in 3 different types of games in each of game tags in year 2018.
+
+<img src="images\Final Report Images\Adrian\GameTag2018.png">
+
+### Analysis - Part 2 Genre and Game Tags conclusion
+From the result of graphs above, we can see the highest used types of genre and games tags in games on steam are Indie or Action type of games from 1990 to 2018. In year 2018, the result of genre tags are in most games on steam are Indie, RPG, Sports and Casual. However, the result of game tags on steam are in most games is Great Soundtrack type of games.
+
 
 ## Analysis - Part 3
 
