@@ -69,6 +69,8 @@ On the first graph, which is the number of games released each year, we can see 
 ## Analysis - Part 3
 In this part, I am checking how the recent review have an influence on the overall percent rating of different game as well as which game has the highest recent review for different rating categories such as very positive review game, mixed review game and negative review game.
 
+The data was cleaned to drop off any columns that is not necessary for comparison and there is splitting of columns into different small columns respectively since review column has a lot of information which includes number of users, percentage of users that rate the game positive as well as the overall review of the game. Since the review column have different writing format, rows are dropped that have very little information as well as null rows so that comparison will be much easier. Sorting is also done in descending order in order to draw the graph for the game that have a highest recent positive reviews.
+
 ### Image 1
 <img src= "images\Final Report Images\Sitt Hmue Paing\Very Positive reviews game.png">
 <img src= "images\Final Report Images\Sitt Hmue Paing\Highest recent review for very positive games.png">
