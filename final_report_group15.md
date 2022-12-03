@@ -6,7 +6,7 @@ Our group decided to perform an analysis on video game data because
 The dataset that we used is data from Steam, a popular online game store. The dataset includes information such as pricing, genre, release date, tags (which includes information on what features the game implements and/or type of game that it is), developer, publisher, languages, achievements, and much more. We obtained this data from Kaggle, an online database that hosts datasets. This data is under the CC0 (public domain) Licence and originally contained over 40 thousand steam games. The data was originally collected in the middle of 2019.
 
 ## Explorative Data Analysis (+!-!+Incomplete+!-!+)
-Our group's EDA mostly consisted of looking at the data manually and figuring out what we can clean up and wrangle in our data pipeline. This was due to the dataset we chose containing a lot of text that needed to be separated out into numerical and boolean values befoe they can be put into use for the analysis.
+Our group's EDA mostly consisted of looking at the data manually and figuring out what we can clean up had wrangle in our data pipeline. This was due to the dataset we chose containing a lot of text that needed to be separated out into numerical and boolean values before they can be put into use for the analysis.
 
 For example, we separated out the year from the release date and converted it into a numerical value. We also separated out the tags into individual columns and converted them into boolean values. This was done so that we can use the data for our analysis.
 
@@ -46,5 +46,12 @@ From these graphs, we can see how the number of games released matches with the 
 ## Analysis - Part 2
 
 ## Analysis - Part 3
+In this part, I am checking how the recent review have an influence on the overall percent rating of different game as well as which game has the highest recent review for different rating categories such as very positive review game, mixed review game and negative review game.
+
+### Image 1
+<img src= "images\Final Report Images\Sitt Hmue Paing\Highest recent review for very positive games.png">
+
+The bar graphs shows the comparison between recent and overall users review percentage on very positive rated game. All the rating in the graph both recent and overall only consist of positive review and as we can see there are some variation in the graph as the overall percentage increase/decrease or no change. The increases in overall percentage clearly tell us that there is a rise in recent positive review which in turn increase the growth of overall positive review. For decrease positive review, there may be reasons like the number of negative reviews exceeded that of the number of positive review from the user hence it will dropped the overall positive percent review. For no change graph, we can say that both the negative rating and the positive rating from the users are equal so there will be no further changes on the overall reviews. It shows that the change in recent positive review influence the change in overall positive reviews. The game get the overall rating of very positive since the positive user from both current and previous number greatly out weight the number of negative rating from different users from previous or current.
+
 
 ## Conclusion (+!-!+Incomplete+!-!+)
