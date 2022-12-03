@@ -10,7 +10,7 @@ Our group's EDA mostly consisted of looking at the data manually and figuring ou
 
 For example, we separated out the year from the release date and converted it into a numerical value. We also separated out the tags into individual columns and converted them into boolean values. This was done so that we can use the data for our analysis.
 
-In part 2 of the analysis, we also wrote functions to further separate and wrangle large amounts of data which were all crammed into individual cells in the original dataset. The game tags and language columns were the most difficult to wrangle because they contained a lot of data in the form of text.
+In part 2 of the analysis, we also wrote functions to further separate and wrangle large amounts of data which were all crammed into individual cells in the original dataset. The genre, game tags and language columns were the most difficult to wrangle because they contained a lot of data in the form of text.
 
 ## Analysis - Part 1
 In this part of the data analysis, I attempted to answer some questions on game trends over time. Such as how the game's prices changed, how many games were developed, did more or less games implement online functionalities such as online multiplayer, and did more or less game developers add achievements to their games.
