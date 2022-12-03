@@ -90,8 +90,8 @@ The second graph above clearly shows that Playerunknown's battlegrounds has the 
 <img src= "images\Final Report Images\Sitt Hmue Paing\Negative review game.png">
 <img src= "images\Final Report Images\Sitt Hmue Paing\Highest recent review for negative games.png">
 
-We can see from the above graph that the overall the change in recent percentage review can affect the overall percentage review. The first game has no recent review so the overall percentage rating remain unchanged but for the other games on the graph, we can clearly see that there is the change in overall review due to the change in recent review. The game are in the very negative categories because the users that rated the game as negative greatly out weight the number of  from both current/previous users that rated the game as positive.
+We can see from the above graph that the overall the change in recent percentage review can affect the overall percentage review. The first game has no recent review so the overall percentage rating remain unchanged but for the other games on the graph, we can clearly see that there is the change in overall review due to the change in recent review. The game can be in very negative categories because it does not suit most of the players taste as well as game update can further cause more issues rather than making the game better than the previous versions. The game are in the very negative categories because the users that rated the game as negative greatly out weight the number of  from both current/previous users that rated the game as positive.
 
-
+Based on the second graph shown above we can see that Command & Conquer 4: Tiberian Twilight has the highest positive review in negative review categories from the users followed by Flatout 3: Chaos & Destruction and Spacebase DF-9.
 
 ## Conclusion (+!-!+Incomplete+!-!+)
