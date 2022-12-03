@@ -115,4 +115,9 @@ We can see from the above graph that the overall the change in recent percentage
 
 Based on the second graph shown above we can see that Command & Conquer 4: Tiberian Twilight has the highest positive review in negative review categories from the users followed by Flatout 3: Chaos & Destruction and Spacebase DF-9.
 
+
+### Analysis part 3 conclusion
+Based on the graphs that were made, we can say that the graphs prove that the change in recent positive review can also affect the overall positive percentage review due to different limitations and issues. Also the graphs clearly describe which games received the highest positive recent review in different rated categories. 
+
+
 ## Conclusion (+!-!+Incomplete+!-!+)
