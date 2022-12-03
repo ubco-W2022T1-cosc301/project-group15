@@ -44,6 +44,27 @@ The last graph that I have plotted is the number of games that implemented achie
 From these graphs, we can see how the number of games released matches with the rate of historical technological development, how the rise of internet entertainment has caused developers to make more online games, how prices of games have changed over time while closely following the consumer price index, and how developers have implemented achievements in their games.
 
 ## Analysis - Part 2
+In the 2nd part of data analysis, I will analysis how many games are in different types of unique genre and game tags with different available languages in games on steam platform in between 1990 to 2018.
+
+There are a lot incomplete and missing data in the dataset. Therefore, after filtering out missing value from columns and rows in the dataset, some data in the graph will show lesser than expected (around 2500 rows of complete data).
+
+### Image 1
+On the first graph shows the number of different types of genre from 1990 to 2018. We can see that Indie type is the most used genre tag in steam games, and it is in 107 different games. Along with the second most used genre tag is action type of game
+
+On the first graph, which is the number of games released each year, we can see that the graph follows an exponential curve. This follows the development trend of technology over those years and from this graph, we can see that the cleaned and wrangled dataset appears to be accurate enough for use in this data analysis.
+
+<img src="images\Final Report Images\Adrian\Genre.png">
+
+
+<img src="images\Final Report Images\Adrian\Genre2018.png">
+
+<img src="images\Final Report Images\Adrian\GameTag.png">
+
+<img src="images\Final Report Images\Adrian\GameTag2018.png">
+
+<img src="images\Final Report Images\Adrian\Language.png">
+
+<img src="images\Final Report Images\Adrian\Language2018.png">
 
 ## Analysis - Part 3
 In this part, I am checking how the recent review have an influence on the overall percent rating of different game as well as which game has the highest recent review for different rating categories such as very positive review game, mixed review game and negative review game.
