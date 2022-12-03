@@ -1,11 +1,11 @@
 # Group 15 Final Report
 
-## Introduction (+!-!+Incomplete+!-!+)
-Our group decided to perform an analysis on video game data because 
+## Introduction
+Our group decided to perform an analysis on video game data because our group members are all avid video game players and were curious about the trends and patterns within the industry. We believe that analyzing this data will provide insights into the types of games that are popular, the features that players value, and the factors that influence game pricing. By exploring this dataset, we hope to gain a better understanding of the video game market.
 
 The dataset that we used is data from Steam, a popular online game store. The dataset includes information such as pricing, genre, release date, tags (which includes information on what features the game implements and/or type of game that it is), developer, publisher, languages, achievements, and much more. We obtained this data from Kaggle, an online database that hosts datasets. This data is under the CC0 (public domain) Licence and originally contained over 40 thousand steam games. The data was originally collected in the middle of 2019.
 
-## Explorative Data Analysis (+!-!+Incomplete+!-!+)
+## Explorative Data Analysis
 Our group's EDA mostly consisted of looking at the data manually and figuring out what we can clean up had wrangle in our data pipeline. This was due to the dataset we chose containing a lot of text that needed to be separated out into numerical and boolean values before they can be put into use for the analysis.
 
 For example, we separated out the year from the release date and converted it into a numerical value. We also separated out the tags into individual columns and converted them into boolean values. This was done so that we can use the data for our analysis.
@@ -126,4 +126,5 @@ Based on the second graph shown above we can see that Command & Conquer 4: Tiber
 Based on the graphs that were made, we can say that the graphs prove that the change in recent positive review can also affect the overall positive percentage review due to different limitations and issues. Also the graphs clearly describe which games received the highest positive recent review in different rated categories. 
 
 
-## Conclusion (+!-!+Incomplete+!-!+)
+## Conclusion
+In conclusion, our group's analysis of the Steam video game data provided insights into the trends and patterns within the industry. We were able to identify key factors that influence game pricing, the types of games that are popular among players, and the features that players value. Our analysis of the data also revealed interesting trends in the industry, such as the increasing number of games released each year and the growing popularity of online multiplayer. Overall, our analysis of this dataset helped us gain a better understanding of the video game market and identified potential opportunities for future research.
